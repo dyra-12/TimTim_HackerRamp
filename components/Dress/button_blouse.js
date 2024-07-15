@@ -24,6 +24,11 @@ else if(body==='rectangle(small)'){
   position = [0, -15, -4]
   Size= [-1.05, 1.15, 0.9]
 }
+else if(body==='hour'){
+  scale =  0.8
+  position = [0, -3, -4]
+  Size= [-1.2, 1.15, 0.9]
+}
 else{
   scale =  0.8
   position = [0, -20, -4]

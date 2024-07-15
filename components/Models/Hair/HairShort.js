@@ -18,10 +18,17 @@ export function WhiteShort({body, color}) {
   } else if (body === 'rectangle(small)') {
     position = [0, 105, -4];
     scale = 65;
+  } else if (body === 'hour') {
+    position = [0, 115, -2];
+    scale = 65;
+    
   } else if (body === 'rectangle(v-small)') {
     position = [0, 99, -2];
     scale = 65;
-  } else {
+    
+  } 
+  
+  else {
     scale = 65;
     position = [0, 109, -4];
   }

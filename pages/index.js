@@ -40,7 +40,7 @@ const Index = () => {
         
     //     </Canvas>
     //   </div>
-    <ImageGallery />
+    <TryOn />
     // </div>
   );
 };
